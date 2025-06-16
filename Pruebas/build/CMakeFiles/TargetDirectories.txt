@@ -1,0 +1,3 @@
+/workspaces/POO-51/Pruebas/build/CMakeFiles/rebuild_cache.dir
+/workspaces/POO-51/Pruebas/build/CMakeFiles/edit_cache.dir
+/workspaces/POO-51/Pruebas/build/CMakeFiles/pruebas.dir

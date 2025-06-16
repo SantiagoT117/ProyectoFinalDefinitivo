@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/workspaces/POO-51/Pruebas/build",
+  "command": "/usr/bin/c++   -I/workspaces/POO-51/Pruebas/include  -g   -o CMakeFiles/pruebas.dir/main.cpp.o -c /workspaces/POO-51/Pruebas/main.cpp",
+  "file": "/workspaces/POO-51/Pruebas/main.cpp"
+},
+{
+  "directory": "/workspaces/POO-51/Pruebas/build",
+  "command": "/usr/bin/c++   -I/workspaces/POO-51/Pruebas/include  -g   -o CMakeFiles/pruebas.dir/src/Ahorcado.cpp.o -c /workspaces/POO-51/Pruebas/src/Ahorcado.cpp",
+  "file": "/workspaces/POO-51/Pruebas/src/Ahorcado.cpp"
+},
+{
+  "directory": "/workspaces/POO-51/Pruebas/build",
+  "command": "/usr/bin/c++   -I/workspaces/POO-51/Pruebas/include  -g   -o CMakeFiles/pruebas.dir/src/Juegos.cpp.o -c /workspaces/POO-51/Pruebas/src/Juegos.cpp",
+  "file": "/workspaces/POO-51/Pruebas/src/Juegos.cpp"
+},
+{
+  "directory": "/workspaces/POO-51/Pruebas/build",
+  "command": "/usr/bin/c++   -I/workspaces/POO-51/Pruebas/include  -g   -o CMakeFiles/pruebas.dir/src/Jugadores.cpp.o -c /workspaces/POO-51/Pruebas/src/Jugadores.cpp",
+  "file": "/workspaces/POO-51/Pruebas/src/Jugadores.cpp"
+}
+]
