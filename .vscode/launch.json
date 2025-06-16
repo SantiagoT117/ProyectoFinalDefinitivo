@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug Pruebas",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/Pruebas/pruebas",
+      "args": [],
+      "cwd": "${workspaceFolder}/Pruebas",
+      "console": "integratedTerminal",
+      "MIMode": "gdb",
+      "miDebuggerPath": "/usr/bin/gdb",
+      "preLaunchTask": "Build Pruebas"
+    }
+  ]
+}

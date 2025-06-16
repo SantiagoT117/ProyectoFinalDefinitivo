@@ -1,0 +1,3 @@
+/workspaces/ProyectoFinalDefinitivo/build/CMakeFiles/rebuild_cache.dir
+/workspaces/ProyectoFinalDefinitivo/build/CMakeFiles/edit_cache.dir
+/workspaces/ProyectoFinalDefinitivo/build/CMakeFiles/pruebas.dir
