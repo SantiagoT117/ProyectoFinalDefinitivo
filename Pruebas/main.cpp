@@ -3,16 +3,60 @@
 #include <string>
 #include <Ahorcado.h>
 
+int opcionJuego = 0;
+int selector = 0;
+
+void verInformacion();
+
+
 using namespace std;
+
 
 int main(){
 
-    Juegos* juego = new Ahorcado();
+    cout << "Bienvenido a la sala de juegos" << endl;
 
-    juego->jugar();
+    cout << "Que desea jugar el dia de hoy? ( 1. ahorcado // 2. concentrese)" << endl;
+    cin >> opcionJuego;
 
-    delete juego;
+    if(opcionJuego == 1){
 
-    return 0;
+        Juegos* juego = new Ahorcado();
 
+        juego -> jugar();
+
+        cout << "Desea ver la informacion de partida?: 1. si // 2. no"<< endl;
+        cin >> selector;
+
+        if(selector == 1){
+            ((Ahorcado*)juego) -> tablaInfo();
+        }
+
+
+        delete juego;
+
+        return 0;
+
+
+
+    }else if(opcionJuego == 2){
+        cout << "Aqui va el concentrese" << endl;
+    }
+
+
+}
+
+
+void verInformacion(){
+    ifstream archivo("Informacion.txt");
+
+    if(archivo.is_open()){
+        string linea;
+
+        while(getline(archivo, linea)){
+            cout << linea << endl;
+
+        }
+        archivo.close();
+    }
 }

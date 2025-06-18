@@ -13,9 +13,10 @@ class Jugadores{
     public:
 
         Jugadores();
-        Jugadores(string nombrej1,string nombrej2, string codigoj1,string codigoj2, int victorias, int derrotas, int empates);
+        Jugadores(string fecha,string nombrej1,string nombrej2, string codigoj1,string codigoj2, int victoriasj1,int victoriasj2 , int derrotasj1,int derrotasj2 , int empates);
 
-
+        void setFecha(string fecha);
+        string getFecha();
         
         void setNombrej1(string nombrej1);
         string getNombrej1();
@@ -29,11 +30,17 @@ class Jugadores{
         void setCodigoj2(string codigoj2);
         string getCodigoj2();
         
-        void setVictorias(int vistorias);
-        int getVictorias();
+        void setVictoriasj1(int vistoriasj1);
+        int getVictoriasj1();
+
+        void setVictoriasj2(int vistoriasj2);
+        int getVictoriasj2();
         
-        void setDerrotas(int derrotas);
-        int getDerrotas();
+        void setDerrotasj1(int derrotasj1);
+        int getDerrotasj1();
+
+        void setDerrotasj2(int derrotasj2);
+        int getDerrotasj2();
         
         void setEmpates(int empates);
         int getEmpates();
@@ -64,8 +71,8 @@ class Jugadores{
             cin >> codigoj2;
         }
         
-        string nombrej1, codigoj1, nombrej2,codigoj2;
-        int victorias, derrotas, empates;
+        string fecha ,nombrej1, codigoj1, nombrej2, codigoj2;
+        int victoriasj1, victoriasj2, derrotasj1, derrotasj2 , empates;
 
 
         private:
