@@ -6,6 +6,7 @@
 			[
 				{
 					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -38,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "pruebas::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-pruebas-Debug-6c4a4ae9701887c8182b.json",
+					"jsonFile" : "target-pruebas-Debug-70b162a3b7328bda18db.json",
 					"name" : "pruebas",
 					"projectIndex" : 0
 				}
@@ -54,6 +55,6 @@
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 0
+		"minor" : 6
 	}
 }

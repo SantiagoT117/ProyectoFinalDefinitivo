@@ -1,3 +1,6 @@
 {
-    "cmake.sourceDirectory": "/workspaces/ProyectoFinalDefinitivo/Pruebas"
+    "cmake.sourceDirectory": "/workspaces/ProyectoFinalDefinitivo/Pruebas",
+    "files.associations": {
+        "ostream": "cpp"
+    }
 }

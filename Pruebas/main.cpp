@@ -1,7 +1,9 @@
 #include <iostream>
+#include <fstream> // leer archivo historial
 #include <vector>
 #include <string>
 #include <Ahorcado.h>
+#include "Concentrece.h" 
 
 int opcionJuego = 0;
 int selector = 0;
@@ -41,9 +43,20 @@ int main(){
 
     }else if(opcionJuego == 2){
         cout << "Aqui va el concentrese" << endl;
+        Juegos* juego = new Concentrece();     // Creamos juego como puntero a Juegos
+
+        juego->jugar();
+
+        cout << "¿Desea ver la información de partida?: 1. sí // 2. no" << endl;
+        cin >> selector;
+
+        if (selector == 1) {
+            ((Concentrece*)juego)->tablaInfo();  // Convertimos para llamar tablaInfo()
+        }
+
+        delete juego;
+        return 0;
     }
-
-
 }
 
 
