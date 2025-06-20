@@ -3,6 +3,9 @@
 
 #include <iostream>
 #include <string>
+#include <cstdlib>
+#include <ctime>
+#include <vector>
 #include <fstream>
 #include <Juegos.h>
 #include <Jugadores.h>
@@ -32,8 +35,10 @@ class Ahorcado : public Juegos, public Jugadores{
 
         string palabraAdivinar, palabraNormal;
         int intentos;
+        vector<string> palabras;
 
         void iniciarJuegoJvsJ();
+        void iniciarJuegoJvsIA();
         bool mostrarPalabra();
         void cambioPalabra();
 };

@@ -5,11 +5,7 @@
 
 using namespace std;
 
-Jugadores::Jugadores(){
-
-}
-
-Jugadores::Jugadores(string fecha,string nombrej1,string nombrej2, string codigoj1,string codigoj2, int victoriasj1,int victoriasj2 , int derrotasj1,int derrotasj2 , int empates){
+Jugadores::Jugadores(string fecha,string nombrej1,string nombrej2, string codigoj1,string codigoj2, int victoriasj1,int victoriasj2 , int derrotasj1,int derrotasj2){
     this -> fecha = fecha;
     this -> nombrej1 = nombrej1;
     this -> codigoj1 = codigoj1;
@@ -19,7 +15,20 @@ Jugadores::Jugadores(string fecha,string nombrej1,string nombrej2, string codigo
     this -> victoriasj2 = victoriasj2;
     this -> derrotasj1 = derrotasj1;
     this -> derrotasj2 = derrotasj2;    
-    this -> empates = empates;
+}
+
+Jugadores::Jugadores(){
+
+    fecha = "";
+    nombrej1 = "";
+    nombrej2 = "";
+    codigoj1 = "";
+    codigoj2 = "";
+    victoriasj1 = 0;
+    victoriasj2 = 0;
+    derrotasj1 = 0;
+    derrotasj2 = 0;
+
 }
 
 void Jugadores::setFecha(string fecha){
@@ -83,11 +92,4 @@ void Jugadores::setDerrotasj2(int derrtoasj2){
 }
 int Jugadores::getDerrotasj2(){
     return derrotasj2;
-}
-
-void Jugadores::setEmpates(int empates){
-    this -> empates = empates;
-}
-int Jugadores::getEmpates(){
-    return empates;
 }

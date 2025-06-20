@@ -13,7 +13,7 @@ class Jugadores{
     public:
 
         Jugadores();
-        Jugadores(string fecha,string nombrej1,string nombrej2, string codigoj1,string codigoj2, int victoriasj1,int victoriasj2 , int derrotasj1,int derrotasj2 , int empates);
+        Jugadores(string fecha,string nombrej1,string nombrej2, string codigoj1,string codigoj2, int victoriasj1,int victoriasj2 , int derrotasj1,int derrotasj2);
 
         void setFecha(string fecha);
         string getFecha();
@@ -42,8 +42,6 @@ class Jugadores{
         void setDerrotasj2(int derrotasj2);
         int getDerrotasj2();
         
-        void setEmpates(int empates);
-        int getEmpates();
         
         
         void registrarjugador1(){
@@ -72,7 +70,7 @@ class Jugadores{
         }
         
         string fecha ,nombrej1, codigoj1, nombrej2, codigoj2;
-        int victoriasj1, victoriasj2, derrotasj1, derrotasj2 , empates;
+        int victoriasj1, victoriasj2, derrotasj1, derrotasj2;
 
 
         private:

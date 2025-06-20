@@ -1,31 +1,31 @@
 [
 {
   "directory": "/workspaces/ProyectoFinalDefinitivo/build",
-  "command": "/usr/bin/clang++  -I/workspaces/ProyectoFinalDefinitivo/Pruebas/include -g -o CMakeFiles/pruebas.dir/main.cpp.o -c /workspaces/ProyectoFinalDefinitivo/Pruebas/main.cpp",
+  "command": "/usr/bin/c++  -I/workspaces/ProyectoFinalDefinitivo/Pruebas/include -g -o CMakeFiles/pruebas.dir/main.cpp.o -c /workspaces/ProyectoFinalDefinitivo/Pruebas/main.cpp",
   "file": "/workspaces/ProyectoFinalDefinitivo/Pruebas/main.cpp",
   "output": "CMakeFiles/pruebas.dir/main.cpp.o"
 },
 {
   "directory": "/workspaces/ProyectoFinalDefinitivo/build",
-  "command": "/usr/bin/clang++  -I/workspaces/ProyectoFinalDefinitivo/Pruebas/include -g -o CMakeFiles/pruebas.dir/src/Ahorcado.cpp.o -c /workspaces/ProyectoFinalDefinitivo/Pruebas/src/Ahorcado.cpp",
+  "command": "/usr/bin/c++  -I/workspaces/ProyectoFinalDefinitivo/Pruebas/include -g -o CMakeFiles/pruebas.dir/src/Ahorcado.cpp.o -c /workspaces/ProyectoFinalDefinitivo/Pruebas/src/Ahorcado.cpp",
   "file": "/workspaces/ProyectoFinalDefinitivo/Pruebas/src/Ahorcado.cpp",
   "output": "CMakeFiles/pruebas.dir/src/Ahorcado.cpp.o"
 },
 {
   "directory": "/workspaces/ProyectoFinalDefinitivo/build",
-  "command": "/usr/bin/clang++  -I/workspaces/ProyectoFinalDefinitivo/Pruebas/include -g -o CMakeFiles/pruebas.dir/src/Concentrece.cpp.o -c /workspaces/ProyectoFinalDefinitivo/Pruebas/src/Concentrece.cpp",
+  "command": "/usr/bin/c++  -I/workspaces/ProyectoFinalDefinitivo/Pruebas/include -g -o CMakeFiles/pruebas.dir/src/Concentrece.cpp.o -c /workspaces/ProyectoFinalDefinitivo/Pruebas/src/Concentrece.cpp",
   "file": "/workspaces/ProyectoFinalDefinitivo/Pruebas/src/Concentrece.cpp",
   "output": "CMakeFiles/pruebas.dir/src/Concentrece.cpp.o"
 },
 {
   "directory": "/workspaces/ProyectoFinalDefinitivo/build",
-  "command": "/usr/bin/clang++  -I/workspaces/ProyectoFinalDefinitivo/Pruebas/include -g -o CMakeFiles/pruebas.dir/src/Juegos.cpp.o -c /workspaces/ProyectoFinalDefinitivo/Pruebas/src/Juegos.cpp",
+  "command": "/usr/bin/c++  -I/workspaces/ProyectoFinalDefinitivo/Pruebas/include -g -o CMakeFiles/pruebas.dir/src/Juegos.cpp.o -c /workspaces/ProyectoFinalDefinitivo/Pruebas/src/Juegos.cpp",
   "file": "/workspaces/ProyectoFinalDefinitivo/Pruebas/src/Juegos.cpp",
   "output": "CMakeFiles/pruebas.dir/src/Juegos.cpp.o"
 },
 {
   "directory": "/workspaces/ProyectoFinalDefinitivo/build",
-  "command": "/usr/bin/clang++  -I/workspaces/ProyectoFinalDefinitivo/Pruebas/include -g -o CMakeFiles/pruebas.dir/src/Jugadores.cpp.o -c /workspaces/ProyectoFinalDefinitivo/Pruebas/src/Jugadores.cpp",
+  "command": "/usr/bin/c++  -I/workspaces/ProyectoFinalDefinitivo/Pruebas/include -g -o CMakeFiles/pruebas.dir/src/Jugadores.cpp.o -c /workspaces/ProyectoFinalDefinitivo/Pruebas/src/Jugadores.cpp",
   "file": "/workspaces/ProyectoFinalDefinitivo/Pruebas/src/Jugadores.cpp",
   "output": "CMakeFiles/pruebas.dir/src/Jugadores.cpp.o"
 }

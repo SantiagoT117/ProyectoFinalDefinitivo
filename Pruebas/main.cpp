@@ -16,47 +16,59 @@ using namespace std;
 
 int main(){
 
-    cout << "Bienvenido a la sala de juegos" << endl;
+    int seguir = 1;
 
-    cout << "Que desea jugar el dia de hoy? ( 1. ahorcado // 2. concentrese)" << endl;
-    cin >> opcionJuego;
+    while(seguir == 1){
 
-    if(opcionJuego == 1){
+        cout << "Bienvenido a la sala de juegos" << endl;
+    
+        cout << "Que desea jugar el dia de hoy? ( 1. ahorcado // 2. concentrese)" << endl;
+        cin >> opcionJuego;
+    
+        if(opcionJuego == 1){
+    
+            Juegos* juego = new Ahorcado();
+    
+            juego -> jugar();
+    
+            cout << "Desea ver la informacion de partida?: 1. si // 2. no"<< endl;
+            cin >> selector;
+    
+            if(selector == 1){
+                ((Ahorcado*)juego) -> tablaInfo();
+            }
+    
+    
+            delete juego;
 
-        Juegos* juego = new Ahorcado();
+    
+        }else if(opcionJuego == 2){
+            cout << "Aqui va el concentrese" << endl;
+            Juegos* juego = new Concentrece();     // Creamos juego como puntero a Juegos
+    
+            juego->jugar();
+    
+            cout << "¿Desea ver la información de partida?: 1. sí // 2. no" << endl;
+            cin >> selector;
+    
+            if (selector == 1) {
+                ((Concentrece*)juego)->tablaInfo();  // Convertimos para llamar tablaInfo()
+            }
+    
+            delete juego;
 
-        juego -> jugar();
-
-        cout << "Desea ver la informacion de partida?: 1. si // 2. no"<< endl;
-        cin >> selector;
-
-        if(selector == 1){
-            ((Ahorcado*)juego) -> tablaInfo();
+        }else{
+            cout << "opcion no valida intente de nuevo" << endl;
         }
 
+        cout << "Desea volver al menu principal? (1.si // 2.no): " << endl;
+        cin >> seguir;
 
-        delete juego;
-
-        return 0;
-
-
-
-    }else if(opcionJuego == 2){
-        cout << "Aqui va el concentrese" << endl;
-        Juegos* juego = new Concentrece();     // Creamos juego como puntero a Juegos
-
-        juego->jugar();
-
-        cout << "¿Desea ver la información de partida?: 1. sí // 2. no" << endl;
-        cin >> selector;
-
-        if (selector == 1) {
-            ((Concentrece*)juego)->tablaInfo();  // Convertimos para llamar tablaInfo()
-        }
-
-        delete juego;
-        return 0;
     }
+
+    cout << "Muchas gracias por jugar" << endl;
+    
+
 }
 
 
