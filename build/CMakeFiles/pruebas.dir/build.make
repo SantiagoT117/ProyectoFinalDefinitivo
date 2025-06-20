@@ -73,71 +73,71 @@ CMakeFiles/pruebas.dir/main.cpp.o: CMakeFiles/pruebas.dir/flags.make
 CMakeFiles/pruebas.dir/main.cpp.o: /workspaces/ProyectoFinalDefinitivo/Pruebas/main.cpp
 CMakeFiles/pruebas.dir/main.cpp.o: CMakeFiles/pruebas.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/ProyectoFinalDefinitivo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pruebas.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pruebas.dir/main.cpp.o -MF CMakeFiles/pruebas.dir/main.cpp.o.d -o CMakeFiles/pruebas.dir/main.cpp.o -c /workspaces/ProyectoFinalDefinitivo/Pruebas/main.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pruebas.dir/main.cpp.o -MF CMakeFiles/pruebas.dir/main.cpp.o.d -o CMakeFiles/pruebas.dir/main.cpp.o -c /workspaces/ProyectoFinalDefinitivo/Pruebas/main.cpp
 
 CMakeFiles/pruebas.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pruebas.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/ProyectoFinalDefinitivo/Pruebas/main.cpp > CMakeFiles/pruebas.dir/main.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/ProyectoFinalDefinitivo/Pruebas/main.cpp > CMakeFiles/pruebas.dir/main.cpp.i
 
 CMakeFiles/pruebas.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pruebas.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/ProyectoFinalDefinitivo/Pruebas/main.cpp -o CMakeFiles/pruebas.dir/main.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/ProyectoFinalDefinitivo/Pruebas/main.cpp -o CMakeFiles/pruebas.dir/main.cpp.s
 
 CMakeFiles/pruebas.dir/src/Ahorcado.cpp.o: CMakeFiles/pruebas.dir/flags.make
 CMakeFiles/pruebas.dir/src/Ahorcado.cpp.o: /workspaces/ProyectoFinalDefinitivo/Pruebas/src/Ahorcado.cpp
 CMakeFiles/pruebas.dir/src/Ahorcado.cpp.o: CMakeFiles/pruebas.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/ProyectoFinalDefinitivo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/pruebas.dir/src/Ahorcado.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pruebas.dir/src/Ahorcado.cpp.o -MF CMakeFiles/pruebas.dir/src/Ahorcado.cpp.o.d -o CMakeFiles/pruebas.dir/src/Ahorcado.cpp.o -c /workspaces/ProyectoFinalDefinitivo/Pruebas/src/Ahorcado.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pruebas.dir/src/Ahorcado.cpp.o -MF CMakeFiles/pruebas.dir/src/Ahorcado.cpp.o.d -o CMakeFiles/pruebas.dir/src/Ahorcado.cpp.o -c /workspaces/ProyectoFinalDefinitivo/Pruebas/src/Ahorcado.cpp
 
 CMakeFiles/pruebas.dir/src/Ahorcado.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pruebas.dir/src/Ahorcado.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/ProyectoFinalDefinitivo/Pruebas/src/Ahorcado.cpp > CMakeFiles/pruebas.dir/src/Ahorcado.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/ProyectoFinalDefinitivo/Pruebas/src/Ahorcado.cpp > CMakeFiles/pruebas.dir/src/Ahorcado.cpp.i
 
 CMakeFiles/pruebas.dir/src/Ahorcado.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pruebas.dir/src/Ahorcado.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/ProyectoFinalDefinitivo/Pruebas/src/Ahorcado.cpp -o CMakeFiles/pruebas.dir/src/Ahorcado.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/ProyectoFinalDefinitivo/Pruebas/src/Ahorcado.cpp -o CMakeFiles/pruebas.dir/src/Ahorcado.cpp.s
 
 CMakeFiles/pruebas.dir/src/Concentrece.cpp.o: CMakeFiles/pruebas.dir/flags.make
 CMakeFiles/pruebas.dir/src/Concentrece.cpp.o: /workspaces/ProyectoFinalDefinitivo/Pruebas/src/Concentrece.cpp
 CMakeFiles/pruebas.dir/src/Concentrece.cpp.o: CMakeFiles/pruebas.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/ProyectoFinalDefinitivo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/pruebas.dir/src/Concentrece.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pruebas.dir/src/Concentrece.cpp.o -MF CMakeFiles/pruebas.dir/src/Concentrece.cpp.o.d -o CMakeFiles/pruebas.dir/src/Concentrece.cpp.o -c /workspaces/ProyectoFinalDefinitivo/Pruebas/src/Concentrece.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pruebas.dir/src/Concentrece.cpp.o -MF CMakeFiles/pruebas.dir/src/Concentrece.cpp.o.d -o CMakeFiles/pruebas.dir/src/Concentrece.cpp.o -c /workspaces/ProyectoFinalDefinitivo/Pruebas/src/Concentrece.cpp
 
 CMakeFiles/pruebas.dir/src/Concentrece.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pruebas.dir/src/Concentrece.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/ProyectoFinalDefinitivo/Pruebas/src/Concentrece.cpp > CMakeFiles/pruebas.dir/src/Concentrece.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/ProyectoFinalDefinitivo/Pruebas/src/Concentrece.cpp > CMakeFiles/pruebas.dir/src/Concentrece.cpp.i
 
 CMakeFiles/pruebas.dir/src/Concentrece.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pruebas.dir/src/Concentrece.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/ProyectoFinalDefinitivo/Pruebas/src/Concentrece.cpp -o CMakeFiles/pruebas.dir/src/Concentrece.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/ProyectoFinalDefinitivo/Pruebas/src/Concentrece.cpp -o CMakeFiles/pruebas.dir/src/Concentrece.cpp.s
 
 CMakeFiles/pruebas.dir/src/Juegos.cpp.o: CMakeFiles/pruebas.dir/flags.make
 CMakeFiles/pruebas.dir/src/Juegos.cpp.o: /workspaces/ProyectoFinalDefinitivo/Pruebas/src/Juegos.cpp
 CMakeFiles/pruebas.dir/src/Juegos.cpp.o: CMakeFiles/pruebas.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/ProyectoFinalDefinitivo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/pruebas.dir/src/Juegos.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pruebas.dir/src/Juegos.cpp.o -MF CMakeFiles/pruebas.dir/src/Juegos.cpp.o.d -o CMakeFiles/pruebas.dir/src/Juegos.cpp.o -c /workspaces/ProyectoFinalDefinitivo/Pruebas/src/Juegos.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pruebas.dir/src/Juegos.cpp.o -MF CMakeFiles/pruebas.dir/src/Juegos.cpp.o.d -o CMakeFiles/pruebas.dir/src/Juegos.cpp.o -c /workspaces/ProyectoFinalDefinitivo/Pruebas/src/Juegos.cpp
 
 CMakeFiles/pruebas.dir/src/Juegos.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pruebas.dir/src/Juegos.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/ProyectoFinalDefinitivo/Pruebas/src/Juegos.cpp > CMakeFiles/pruebas.dir/src/Juegos.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/ProyectoFinalDefinitivo/Pruebas/src/Juegos.cpp > CMakeFiles/pruebas.dir/src/Juegos.cpp.i
 
 CMakeFiles/pruebas.dir/src/Juegos.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pruebas.dir/src/Juegos.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/ProyectoFinalDefinitivo/Pruebas/src/Juegos.cpp -o CMakeFiles/pruebas.dir/src/Juegos.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/ProyectoFinalDefinitivo/Pruebas/src/Juegos.cpp -o CMakeFiles/pruebas.dir/src/Juegos.cpp.s
 
 CMakeFiles/pruebas.dir/src/Jugadores.cpp.o: CMakeFiles/pruebas.dir/flags.make
 CMakeFiles/pruebas.dir/src/Jugadores.cpp.o: /workspaces/ProyectoFinalDefinitivo/Pruebas/src/Jugadores.cpp
 CMakeFiles/pruebas.dir/src/Jugadores.cpp.o: CMakeFiles/pruebas.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/ProyectoFinalDefinitivo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/pruebas.dir/src/Jugadores.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pruebas.dir/src/Jugadores.cpp.o -MF CMakeFiles/pruebas.dir/src/Jugadores.cpp.o.d -o CMakeFiles/pruebas.dir/src/Jugadores.cpp.o -c /workspaces/ProyectoFinalDefinitivo/Pruebas/src/Jugadores.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pruebas.dir/src/Jugadores.cpp.o -MF CMakeFiles/pruebas.dir/src/Jugadores.cpp.o.d -o CMakeFiles/pruebas.dir/src/Jugadores.cpp.o -c /workspaces/ProyectoFinalDefinitivo/Pruebas/src/Jugadores.cpp
 
 CMakeFiles/pruebas.dir/src/Jugadores.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pruebas.dir/src/Jugadores.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/ProyectoFinalDefinitivo/Pruebas/src/Jugadores.cpp > CMakeFiles/pruebas.dir/src/Jugadores.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/ProyectoFinalDefinitivo/Pruebas/src/Jugadores.cpp > CMakeFiles/pruebas.dir/src/Jugadores.cpp.i
 
 CMakeFiles/pruebas.dir/src/Jugadores.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pruebas.dir/src/Jugadores.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/ProyectoFinalDefinitivo/Pruebas/src/Jugadores.cpp -o CMakeFiles/pruebas.dir/src/Jugadores.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/ProyectoFinalDefinitivo/Pruebas/src/Jugadores.cpp -o CMakeFiles/pruebas.dir/src/Jugadores.cpp.s
 
 # Object files for target pruebas
 pruebas_OBJECTS = \

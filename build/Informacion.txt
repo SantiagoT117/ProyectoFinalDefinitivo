@@ -1,0 +1,15 @@
+Nombre: adri // Fecha: 2025/07/13 // Juego: Concentrece // Resultado: D // Puntos: 0
+Nombre: adri // Fecha: 2025-06-02 // Juego: Concentrece // Resultado: D // Puntos: 10
+Nombre: addr // Fecha: 2925/07/08 // Juego: Concentrece // Resultado: G // Puntos: 80
+Nombre: ari // Fecha: 2025/02/03 // Juego: Concentrece // Resultado: G // Puntos: 80
+Nombre: ar // Fecha: 2025-06-07 // Juego: Concentrece // Resultado: D // Puntos: 10
+Nombre: ar // Fecha: 2025-06-07 // Juego: Concentrece // Resultado: D // Puntos: 10
+Nombre: ar // Fecha: 2025/07/07 // Juego: Concentrece // Resultado: D // Puntos: 40
+Nombre: ar // Fecha: 2025/07/07 // Juego: Concentrece // Resultado: D // Puntos: 40
+Nombre: ari // Fecha: 2025-06-07 // Juego: Concentrece // Resultado: D // Puntos: 40
+Nombre: ari // Fecha: 2025-06-07 // Juego: Concentrece // Resultado: D // Puntos: 40
+Nombre: ari // Fecha: 2025-06-07 // Juego: Concentrece // Resultado: G // Puntos: 0
+Nombre: ari // Fecha: 2025-06-07 // Juego: Concentrece // Resultado: G // Puntos: 0
+Nombre: ar // Fecha: 2025/07/07 // Juego: Concentrece // Resultado: G // Puntos: 0
+Nombre: ar // Fecha: 2025/07/07 // Juego: Concentrece // Resultado: G // Puntos: 0
+Nombre: ar // Fecha: 2025-06-07 // Juego: Concentrece // Resultado: D // Puntos: 0

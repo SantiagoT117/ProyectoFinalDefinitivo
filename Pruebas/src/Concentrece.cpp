@@ -105,38 +105,91 @@ void Concentrece::juegoJugadorVsJugador(){
     tablaInfo();
 }
 
-void Concentrece::jugadorVsCPU(){
+void Concentrece::jugadorVsCPU() {
     int turno = 0;
-
-    while (paresEncontrados < paresTotales) {
+    int oportunidadesJugador = 5;  
+    bool ganoJugador = false;      
+    while (paresEncontrados < paresTotales && oportunidadesJugador > 0) {
         mostrarTablero();
+        cout << "--------------------------------------------------\n";
 
-        if (turno % 2 == 0) {
-            jugarTurno(nombrej1);
-        } else {
-            // Turno de la CPU
+        if (turno % 2 == 0) { 
+            cout << "Turno de " << nombrej1 << " (Oportunidades restantes: " << oportunidadesJugador << ")\n";
+            
+            int p1, p2;
+            cout << "Elige dos posiciones (ej: 1 2): ";
+            cin >> p1 >> p2;
+            p1--; p2--;  // 
+
+            if (p1 < 0 || p2 < 0 || p1 >= tablero.size() || p2 >= tablero.size() || 
+                p1 == p2 || descubiertas[p1] || descubiertas[p2]) {
+                cout << "¡Selección inválida! Pierdes una oportunidad.\n";
+                oportunidadesJugador--;
+            } 
+            else {
+                
+                cout << "Cartas reveladas: " << tablero[p1] << " y " << tablero[p2] << endl;
+                
+                if (tablero[p1] == tablero[p2]) { 
+                    descubiertas[p1] = descubiertas[p2] = true;
+                    paresEncontrados++;
+                    puntos += 10;
+                    cout << "¡Correcto! Has encontrado un par.\n";
+                    if (paresEncontrados == paresTotales) {
+                        ganoJugador = true;
+                    }
+                } 
+                else { 
+                    cout << "¡No coinciden! Pierdes una oportunidad.\n";
+                    oportunidadesJugador--;
+                }
+            }
+        } 
+        else { 
+            cout << "Turno de la CPU\n";
+            
             int p1 = rand() % tablero.size();
             int p2 = rand() % tablero.size();
 
+            
             while (p1 == p2 || descubiertas[p1] || descubiertas[p2]) {
                 p1 = rand() % tablero.size();
                 p2 = rand() % tablero.size();
             }
 
-            cout << "CPU eligió: " << p1 + 1 << " y " << p2 + 1 << endl;
+            cout << "La CPU eligió posiciones: " << p1+1 << " y " << p2+1 << endl;
+            cout << "Cartas reveladas: " << tablero[p1] << " y " << tablero[p2] << endl;
 
-            if (tablero[p1] == tablero[p2]) {
-                descubiertas[p1] = true;
-                descubiertas[p2] = true;
-                puntos += 10;
+            if (tablero[p1] == tablero[p2]) { 
+                descubiertas[p1] = descubiertas[p2] = true;
                 paresEncontrados++;
-                cout << "¡CPU acertó un par!\n";
-            } else {
-                cout << "CPU falló.\n";
+                cout << "¡La CPU encontró un par!\n";
+                if (paresEncontrados == paresTotales) {
+                    ganoJugador = false;
+                }
+            } 
+            else { 
+                cout << "¡La CPU no acertó!\n";
             }
         }
         turno++;
+        cout << "--------------------------------------------------\n";
     }
+    cout << "\n¡Juego terminado!\n";
+    if (paresEncontrados == paresTotales) {
+        if (ganoJugador) {
+            cout << "¡Felicidades " << nombrej1 << "! Has ganado.\n";
+            resultado = "G";
+        } else {
+            cout << "¡La CPU ha ganado!\n";
+            resultado = "D";
+        }
+    } 
+    else {
+        cout << "Te quedaste sin oportunidades. ¡La CPU gana!\n";
+        resultado = "D";
+    }
+    
     cout << "¡Fin del juego!\n";
     resultado = "G"; 
     tablaInfo();

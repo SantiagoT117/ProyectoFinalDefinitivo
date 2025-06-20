@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/pruebas.dir/main.cpp.o CMakeFiles/pruebas.dir/src/Ahorcado.cpp.o CMakeFiles/pruebas.dir/src/Concentrece.cpp.o CMakeFiles/pruebas.dir/src/Juegos.cpp.o CMakeFiles/pruebas.dir/src/Jugadores.cpp.o -o pruebas 
+/usr/bin/clang++ -g CMakeFiles/pruebas.dir/main.cpp.o CMakeFiles/pruebas.dir/src/Ahorcado.cpp.o CMakeFiles/pruebas.dir/src/Concentrece.cpp.o CMakeFiles/pruebas.dir/src/Juegos.cpp.o CMakeFiles/pruebas.dir/src/Jugadores.cpp.o -o pruebas 
